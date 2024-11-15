@@ -37,7 +37,7 @@ If you're experiencing any issues while installing, check out [Getting Help](#ge
     -   Automatic Solidity compiler version detection & installation (under `~/.svm`)
     -   **Incremental compilation & caching**: Only changed files are re-compiled
     -   Parallel compilation
-    -   Non-standard directory structures support (e.g. [Hardhat repos](https://twitter.com/gakonst/status/1461289225337421829))
+    -   Non-standard directory structures support (e.g. [Hardhat repos](https://x.com/gakonst/status/1461289225337421829))
 -   **Tests are written in Solidity** (like in DappTools)
 -   **Fast fuzz testing** with shrinking of inputs & printing of counter-examples
 -   **Fast remote RPC forking mode**, leveraging Rust's async infrastructure like tokio
@@ -121,9 +121,9 @@ If you want to contribute, or follow along with contributor discussion, you can 
 ## Acknowledgements
 
 -   Foundry is a clean-room rewrite of the testing framework [DappTools](https://github.com/dapphub/dapptools). None of this would have been possible without the DappHub team's work over the years.
--   [Matthias Seitz](https://twitter.com/mattsse_): Created [ethers-solc](https://github.com/gakonst/ethers-rs/tree/master/ethers-solc/) which is the backbone of our compilation pipeline, as well as countless contributions to ethers, in particular the `abigen` macros.
--   [Rohit Narurkar](https://twitter.com/rohitnarurkar): Created the Rust Solidity version manager [svm-rs](https://github.com/roynalnaruto/svm-rs) which we use to auto-detect and manage multiple Solidity versions.
--   [Brock Elmore](https://twitter.com/brockjelmore): For extending the VM's cheatcodes and implementing [structured call tracing](https://github.com/foundry-rs/foundry/pull/192), a critical feature for debugging smart contract calls.
+-   [Matthias Seitz](https://x.com/mattsse_): Created [ethers-solc](https://github.com/gakonst/ethers-rs/tree/master/ethers-solc/) which is the backbone of our compilation pipeline, as well as countless contributions to ethers, in particular the `abigen` macros.
+-   [Rohit Narurkar](https://x.com/rohitnarurkar): Created the Rust Solidity version manager [svm-rs](https://github.com/roynalnaruto/svm-rs) which we use to auto-detect and manage multiple Solidity versions.
+-   [Brock Elmore](https://x.com/brockjelmore): For extending the VM's cheatcodes and implementing [structured call tracing](https://github.com/foundry-rs/foundry/pull/192), a critical feature for debugging smart contract calls.
 -   All the other [contributors](https://github.com/foundry-rs/foundry/graphs/contributors) to the [ethers-rs](https://github.com/gakonst/ethers-rs) & [foundry](https://github.com/foundry-rs/foundry) repositories and chatrooms.
 
 [foundry-book]: https://book.getfoundry.sh
