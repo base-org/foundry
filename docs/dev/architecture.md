@@ -6,11 +6,11 @@ This document describes the high-level architecture of Foundry.
 
 Foundry's EVM tooling. This is built around [`revm`](https://github.com/bluealloy/revm) and has additional
 implementation of:
-- [cheatcodes](./cheatcodes.md) a set of solidity calls dedicated to testing which can manipulate the environment in which the execution is run
+- [cheatcodes](./cheatcodes.md): a set of solidity calls dedicated to testing, which can manipulate the environment in which the execution is run
 
 ### `config/`
 
-Includes all of Foundry's settings and how to get them
+Contains all of Foundry's settings and methods for retrieving them.
 
 ### `cli/`
 
